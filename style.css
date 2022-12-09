@@ -1,0 +1,45 @@
+* {margin:0;padding:0;}
+body body {background-color:#4d4c4c; background-attachment:fixed; background-repeat: no-repeat; font-family:'Arial';}
+
+#page {width:1200px;margin:0 auto;}
+
+header {height:60px;}
+header .logo {float:left;}
+header .logo img {margin:0px 0px 0px 0px;}
+nav {clear:both;height:60px;background-color:#7a7b7c;border-radius:8px 8px 8px 8px; position: fixed;}
+nav ul {list-style:none;} /*без маркировки*/
+nav ul li {float:left;margin:17px 20px;font-size:25px;font-family:'Georgia';font-style:italic;}
+nav ul li a {color:#000000;text-decoration:none;}
+nav ul li a:hover {text-decoration:underline;color: #FFFFFF;}
+button {background-color:#a3a4a5;border-radius:4px 4px 4px 4px; margin: 0 10px 18px 0; 
+    border-bottom: 4px solid; }
+
+
+
+#content {clear:both;}
+#content h1 {font-size:30px;font-family:'Georgia';font-style:italic;font-weight:normal;margin-bottom:20px;}
+#content img.float-left {float:left;margin:0px 0px 0px 0px;}
+#content p {margin-bottom:15px;}
+
+footer {clear:both; height:60px;background-color:#656668;border-radius:8px 8px 8px 8px;}
+footer a {color:#000;text-decoration:underline;}
+footer a:hover {text-decoration:none; color: #FFFFFF;}
+.buttonskills {
+    color:#FFFFFF; 
+    background-color: #7a7b7c;
+    border-color: transparent;
+border-radius: 0px;}
+a span{display: none; /*всплывающие недостатки*/
+background-color:#a3a4a5;
+opacity: 0.4; /*прозрачность*/
+width: 350px;
+border-radius: 8px;
+font-size: 25px; 
+color: black;}
+a {display: inline-block;}
+a:hover span{display: block;}
+
+.hover_img_scale {display: inline-block;}/*увеличение книжки*/
+/*overflow: hidden;} /*скрываем все за блоками*/
+
+.hover_img_scale img:hover {transform: scale(3);}
