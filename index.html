@@ -1,18 +1,177 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Маспанова Ольга</title>
-<meta name="description" content="CV">
-<meta name="author" content="Maspanova Olga">
-<meta name="keywords" content="QA, analyst, data_analyst, Maspanova, CV">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<html lang="ru">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Маспанова Ольга</title>
+	<link rel="shortcut icon" href="ico_olga.ico">
+	<meta name="description" content="Личная страница Маспановой Ольги">
+	<meta name="keywords" content="QA, analyst, data_analyst, front-end developer, Maspanova, CV">
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+	  <meta name="viewport" content="width=device-width"> <!--ширина страницы равна ширине устройства-->
+	</head>
 <body>
-<script src="js/scripts.js"></script>
-<header>
-</header>
-  <p>hello</p>
-  </body>
-  
+<div id="page">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="#experience">Опыт работы</a></li>
+				<li><a href="#education">Образование</a></li>
+				<li><a href="#skills">Навыки</a></li>
+				<li><a href="#code">Мой код</a></li>
+				<li><a href="#project">Мои проекты</a></li>
+				<li><a href="#contact">Мои контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+	
+		 <section id="content">
+		<img src="olga.png" alt="Аналитик">
+		<h1><strong>Маспанова Ольга</strong></h1><br>
+		<h2>Front-end разработчик, бизнес-аналитик, тестировщик</h2><br>	
+			<div> Я очень хочу поменять закупки на IT или найти проект, который объединит закупки и аналитику.
+					В настоящее время я прохожу курс переподготовки в БГУИР по специальности электронный бизнес. В 2021 г.закончила курсы Skillup  по тестированию.  Имею базовые знания HTML, CSS, SQL, теории тестирования. Знакома с такими программами как Jira, TestRail, Selenium, Postman, Swagger. Планирую изучение Java и/или Python. Есть небольшой опыт тестирования web приложений в Яндекс. Имею большой опыт работы в логистике (транспортная, закупочная и складская), ВЭД, таможня, а также работала экономистом и бухгалтером.
+						Я люблю работать с цифрами и  анализировать данные. Есть опыт внедения и тестирования SAP и AMO CRM на предприятии, выстраивания бизнесс-процессов в отделе закупок и логистики. 
+						Готова работать по выходным и сверхурочно. Очень хотела бы попасть к Вам на собеседование.</div>
+						<div>
+						<a href="cv.pdf" target="blank"><mark>Загрузить CV</mark></a>
+						<mark>Позвонить, написать на Viber:375 29 647 06 40</mark>
+						<a href="mailto:maspanova_olga@mail.ru"><mark>написать</mark></a></div>
+		</section> 
+
+		<section>
+	<div class="block_left" id="experience">
+	<h3>Опыт работы:</h3>
+	<table>
+	<tr>
+		<td>2021-2022 Специалист по ВЭД</td>
+		<td><img src="evrostancom.png" alt="Евростанком"></td>
+		</tr>
+	<tr>
+		<td> 2020-2022 Асессор-тестировщик</td>
+		<td><img src="yandex.png" alt="Яндекс"></td>
+	</tr>
+	<tr>
+		<td>2017-2020 Специалист</td>
+		<td><img src="appen.png" alt="Аппен"></td>
+	</tr>
+	<tr> 
+	<td>2014-2015 Специалист по закупкам</td>
+	<td><img src="dommebeli.png" alt="Дом Мебели, Мебель, Стройматериалы"> </td>
+	</tr>
+	<tr> 
+		<td>2007-2013 Декларант, начальник сектора закупок и логистики</td>
+	<td><img src="ceresit.png" alt="Серезит, ХенкельБаутехник"></td>
+	</tr>
+	<tr>
+		<td>2000-2002 ведущий экономист</td>
+		<td><img src="maz.png" alt="МАЗ"> </td>
+	</tr>
+	</table>
+	</div>
+			<div id="skills" class="block_right">
+				<h3>Навыки:</h3>
+				<ul>
+				<li><button class="buttonskills_250">HTML</button></li>
+				<li><button class="buttonskills_250">CSS</button></li>
+				<li><button class="buttonskills_150">JS</button></li>
+				<li><button class="buttonskills_150">GitHub</button></li>
+				<li><button class="buttonskills_290">Ручное тестирование</button></li>
+				<li><button class="buttonskills_290">Check list,  Test Case,  Bug Report</button></li>
+				<li><button class="buttonskills_150">Английский язык A2</button></li>
+				<li><button class="buttonskills_150">Испанский язык A2</button></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div id="code" class="block_left">
+				<h3>Код:</h3>
+				<pre>
+					<code>&lt;
+// арифметические выражения преобразуются к числу
+1 / 2
+i++
+i -= 2
+i * 2
+								
+// строковые - к строке
+"привет, " + "мир"
+'hello, ' += 'world'
+				
+// логические - к булеву значению
+a && b
+a || b
+!a
+							
+// литералы, переменные, константы - это тоже выражения
+2
+0.02
+'something'
+true
+false
+this 
+undefined
+i
+&gt;
+							</code>
+						</pre>
+							</div>					
+							  <div class="block_right" id="education">
+								<h3>Образование:</h3>
+								<ul>
+									<li><b>Основное образование:</b>
+									<ul>
+										<li>2022-2023 гг. БГУИР. Специальность:электронный бизнес, квалификация: бизнес-аналитик, программист.</li>
+										<li>1995-2000 гг. БГЭУ, факультет ВШТ. Специальность: экономика и управление социально-культурной сферой. Квалификация: экономист-менеджер.</li>
+									</ul>
+									</li>
+									<li><b>Дополнительное образование:</b>
+									<ul>
+										<li><a  class="none_decoration" href="https://rs.school/js/" target="_blank"> 2022 г. Бесплатный курс от сообщества The Rolling Scopes:Курс «JavaScript/Front-end»</a></li>
+								<li> 2021 г. Skillup. Подготовительный курс по тестированию ПО.</li>
+								<li> 2021 г. Skillup. Основной курс по тестированию ПО.</li>
+									<li>2021 г. Академия PROFREEWORK. Сайты с нуля</li>
+									</ul>
+									</li>
+								</ul>
+								</div>
+							</section> 
+
+							<section>
+							 <div id="project" class="block_right">
+								<h3>Проекты:</h3>
+								<br>
+								<pre style="font-size:48px;"> 
+Скоро тут будет мой
+<br>
+первый проект...</pre>
+<br>
+<a href="https://github.com/Maspanova/test1">Посмотреть мой код можно тут</a>
+<br>
+<p>Сделать заказ проекта по телефону:+375 296 47 06 40</p>
+								</div>
+							</section> 
+								
+	
+
+</main>
+
+	<footer id="contact">
+		<hr>
+		<p> Маспанова<br>Все права защищены 2022 </p>
+		<p><a href="mailto:maspanova_olga@mail.ru">Написать на мой e-mail:Maspanova_olga@mail.ru</a></p>
+		<p>Телефон: +375 29 647 06 40</p>
+		<a href=https://www.instagram.com/olga_maspanova target="_blank"> <img  src="insta.jpg" alt="Инстаграм"></a>
+		<a href=https://www.linkedin.com/in/maspanova target="_blank"> <img  src="linkedin.png" alt="Linkedin"></a>
+		<a href=https://github.com/Maspanova target="_blank"> <img  src="git.png" alt="GitHub"></a>
+		<a href=https://rs.school/js/ target="_blank"> <img  src="rs_school_js.png" alt="RS"></a>
+		</footer>
+
+	</div>
+</body>
 </html>
+
+
