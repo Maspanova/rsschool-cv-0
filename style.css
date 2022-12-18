@@ -1,3 +1,4 @@
+
 * {margin:0;padding:0;}
 body {
     background-image: url(fon_cente_greyr.jpg); /*рисунок фона*/
@@ -102,8 +103,6 @@ footer a:hover {text-decoration:none; color: rgb(129, 127, 127);}
     color: black}
     .none_decoration:hover {color: #FFFFFF}
 a {display: inline-block;}
-
-
 
 
 
